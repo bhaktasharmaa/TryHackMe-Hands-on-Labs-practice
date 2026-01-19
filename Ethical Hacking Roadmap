@@ -1,0 +1,494 @@
+# ✅ CEH TryHackMe COMPLETE ROADMAP (Exam + Practical)
+
+MUST FOR CEH:-
+1. Nmap
+2. Metasploit + Meterpreter
+3. Hydra
+4. John the Ripper
+5. Hashcat
+6. Nessus
+7. Wireshark
+8. Burp Suite
+9. Netcat
+10. SQLmap
+
+
+## 🧠 MODULE 1: Introduction to Ethical Hacking & Networking Basics
+
+### Core Rooms
+
+1. **Intro to Cyber Security** 🆓
+2. **What is Networking?** 🆓 🎯✅
+3. **Intro to LAN** 🆓
+4. **OSI Model** 🆓
+5. **Packets & Frames** 🆓
+6. **Extending Your Network** 🆓
+
+📌 *Covers:* TCP/IP, OSI, protocols, ports, CEH theory foundation
+
+---
+
+## 🔍 MODULE 2: Footprinting & Reconnaissance
+
+### Passive Recon
+
+1. **Passive Reconnaissance** 🆓 🎯✅
+2. **Google Dorking** 🆓✅
+3. **Shodan.io** 🆓
+
+### Active Recon
+
+4. **Active Reconnaissance** 🆓 🎯✅
+5. **Search Skills** 🆓✅
+
+📌 *Covers:* OSINT, WHOIS, DNS recon, social engineering recon (CEH heavy exam weight)
+
+---
+### 🔹 Nmap 🎯
+
+**THM Rooms**
+
+* Nmap 🆓 🎯✅
+* Nmap Live Host Discovery 🆓
+* Nmap Basic Port Scans 🆓
+* Nmap Advanced Port Scans 💰
+
+**CEH Use**
+
+* Host discovery (`-sn`, `-Pn`)
+* Port scan types (SYN, ACK, UDP)
+* Service/version detection
+* IDS/Firewall evasion
+  👉 **Most asked CEH tool**
+
+---
+
+### 🔹 Whois / DNS / OSINT Tools
+
+**THM Rooms**
+
+* Passive Reconnaissance 🆓 🎯✅
+* Active Reconnaissance 🆓
+* Search Skills 🆓
+
+**CEH Tools Covered**
+
+* whois
+* dig / nslookup
+* Google Dorks
+* Shodan
+
+
+## 📡 MODULE 3: Scanning Networks
+
+1. **Nmap** 🆓 🎯✅
+2. **Nmap Live Host Discovery** 🆓
+3. **Nmap Basic Port Scans** 🆓
+4. **Nmap Advanced Port Scans** 💰 🎯
+5. **Firewall Evasion & IDS** 💰
+
+📌 *Covers:* TCP/UDP scans, stealth scans, evasion techniques (very important for CEH MCQs)
+
+---
+### 🔹 Netcat (nc) 🎯
+
+**THM Rooms**
+
+* Network Services 🆓 🎯✅
+* Network Services 2 🆓
+
+**CEH Use**
+
+* Banner grabbing
+* File transfer
+* Bind & reverse shells
+  👉 **CEH calls Netcat “Swiss Army Knife”**
+
+---
+
+### 🔹 SMB / Enum Tools
+
+**THM Rooms**
+
+* Network Services 🆓 🎯✅
+
+**CEH Tools**
+
+* enum4linux
+* smbclient
+* nmblookup
+  👉 Direct CEH MCQs
+
+---
+
+### 🔹 SNMP Tools
+
+**THM Rooms**
+
+* Network Services 2 🆓
+
+**CEH Tools**
+
+* snmpwalk
+* snmpget
+  👉 Common CEH enumeration questions
+
+
+## 🧩 MODULE 4: Enumeration
+
+1. **Network Services** 🆓 🎯✅
+
+   * SMB
+   * FTP
+   * Telnet
+2. **Network Services 2** 🆓
+3. **Enumerating Active Directory** 💰 🎯
+
+📌 *Covers:* SMB enum, NetBIOS, SNMP, LDAP, AD enumeration
+
+---
+
+## ⚠️ MODULE 5: Vulnerability Analysis
+
+1. **Vulnversity** 🆓 🎯
+2. **Intro to Vulnerability Management** 🆓
+3. **Nessus**  🎯✅
+
+📌 *Covers:* Vulnerability scanning lifecycle, CVE/CVSS, Nessus (direct CEH exam questions)
+
+---
+### 🔹 Nessus 🎯✅
+
+**THM Rooms**
+
+* Nessus  🎯✅
+
+**CEH Use**
+
+* Vulnerability scanning
+* CVE, CVSS scoring
+* Authenticated vs unauth scans
+  👉 **Top CEH exam tool**
+
+---
+
+### 🔹 Nikto
+
+**THM Rooms**
+
+* Vulnversity 🆓
+
+**CEH Use**
+
+* Web server vulnerability scanning
+
+
+## 🔐 MODULE 6: System Hacking (MOST IMPORTANT)
+
+### Password Attacks
+
+1. **Crack the Hash** 🆓 🎯
+2. **Brute It** 🆓
+3. **Hydra** 💰 🎯
+
+### Privilege Escalation
+
+4. **Linux Privilege Escalation** 🆓 🎯
+5. **Windows Privilege Escalation** 🆓 🎯
+
+### Full System Compromise
+
+6. **Blue (Windows Exploitation)** 🆓 🎯
+7. **Kenobi** 🆓
+8. **Steel Mountain** 🆓
+
+📌 *Covers:* CEH Module 6 fully — gaining access, escalation, maintaining access
+
+---
+### 🔹 Hydra 🎯
+
+**THM Rooms**
+
+* Hydra 💰 🎯 ☑️✔️✅
+* Brute It 🆓
+
+**CEH Use**
+
+* Online password attacks
+* FTP, SSH, HTTP brute force
+  👉 **Very frequent CEH MCQs**
+
+---
+
+### 🔹 John the Ripper 🎯
+
+**THM Rooms**
+
+* Crack the Hash 🆓 🎯
+
+**CEH Use**
+
+* Offline password cracking
+* Wordlist & rule-based attacks
+
+---
+
+### 🔹 Hashcat 🎯
+
+**THM Rooms**
+
+* Crack the Hash 🆓
+
+**CEH Use**
+
+* GPU-based hash cracking
+* Hash modes (MD5, SHA, NTLM)
+
+---
+
+### 🔹 Metasploit Framework 🎯
+
+**THM Rooms**
+
+* Blue 🆓 🎯
+* Metasploit: Introduction 💰
+* Metasploit: Exploitation 💰
+
+**CEH Use**
+
+* Exploit modules
+* Payloads (bind/reverse)
+* Meterpreter
+  👉 CEH FAVORITE exploitation framework
+
+---
+
+### 🔹 Meterpreter 🎯
+
+**THM Rooms**
+
+* Blue 🆓
+* Post Exploitation Basics 🆓 🎯
+
+**CEH Use**
+
+* Privilege escalation
+* Keylogging
+* Screenshot
+* Persistence
+
+---
+
+
+## 🦠 MODULE 7: Malware Threats
+
+1. **History of Malware** 🆓
+2. **Malware Introductory** 🆓 🎯
+3. **Basic Malware RE** 🆓
+4. **AV Evasion** 💰
+
+📌 *Covers:* Trojans, worms, spyware, crypters, malware analysis (theory + light practical)
+
+---
+**THM Rooms**
+
+* Malware Introductory 🆓 🎯
+* Basic Malware RE 🆓
+
+**CEH Tools**
+
+* Strings
+* PE analysis
+* Sandboxing
+  👉 Mostly theory but must know tools
+
+---
+
+### 🔹 Crypters / Packers (Conceptual)
+
+**THM Rooms**
+
+* AV Evasion 💰
+
+**CEH Use**
+
+* Obfuscation
+* Antivirus bypass (theory heavy)
+
+
+## 📶 MODULE 8: Sniffing
+
+1. **Wireshark** 🆓 🎯
+2. **TShark** 🆓
+3. **Network Traffic Analysis** 💰
+
+📌 *Covers:* Packet sniffing, MITM concepts, CEH exam-heavy theory
+
+---
+### 🔹 Wireshark 🎯
+
+**THM Rooms**
+
+* Wireshark 🆓 🎯
+
+**CEH Use**
+
+* Packet capture
+* Filters
+* Credential sniffing
+
+### 🔹 TShark
+
+**THM Rooms**
+
+* TShark 🆓
+
+**CEH Use**
+
+* CLI packet capture
+* Automation
+
+
+
+## 🌐 MODULE 9: Web Server & Web Application Hacking
+
+### Web Basics
+
+1. **HTTP in Detail** 🆓 🎯
+2. **DNS in Detail** 🆓
+
+### Web Attacks
+
+3. **OWASP Top 10** 🆓 🎯
+4. **Burp Suite: The Basics** 🆓 🎯
+5. **Burp Suite: Repeater** 🆓
+6. **Upload Vulnerabilities** 🆓
+7. **SQL Injection** 💰 🎯
+
+📌 *Covers:* SQLi, XSS, auth bypass, directory traversal — CEH gold
+
+---
+### 🔹 Burp Suite 🎯
+
+**THM Rooms**
+
+* Burp Suite: The Basics 🆓 🎯
+* Burp Suite: Repeater 🆓
+
+**CEH Use**
+
+* Intercept proxy
+* Repeater attacks
+* Web manipulation
+  👉 CEH web module core tool
+
+---
+
+### 🔹 Gobuster / Dirbuster
+
+**THM Rooms**
+
+* Vulnversity 🆓 🎯
+
+**CEH Use**
+
+* Directory brute forcing
+
+---
+
+### 🔹 SQLmap 🎯
+
+**THM Rooms**
+
+* SQL Injection 💰 🎯
+
+**CEH Use**
+
+* Automated SQL injection
+* Database enumeration
+
+
+## 📡 MODULE 10: Wireless Network Hacking
+
+1. **WiFi Hacking 101** 🆓 🎯
+2. **WEP / WPA Attacks** 💰
+
+📌 *Covers:* Wireless threats, encryption attacks, tools (aircrack-ng concepts)
+
+---
+### 🔹 Aircrack-ng Suite 🎯
+
+**THM Rooms**
+
+* WiFi Hacking 101 🆓 🎯
+* WEP/WPA Attacks 💰
+
+**CEH Use**
+
+* WEP/WPA cracking
+* Handshake capture
+  👉 Theory + tool switches asked
+
+---
+
+
+## 💣 MODULE 11: DoS & DDoS Attacks
+
+1. **Intro to DoS** 🆓
+2. **Application Layer DoS** 💰
+
+📌 *Covers:* SYN flood, amplification attacks (mostly theory in CEH)
+
+---
+
+## ☁️ MODULE 12: Cloud Computing
+
+1. **Intro to Cloud Security** 🆓
+2. **AWS Cloud Security** 💰
+
+📌 *Covers:* Shared responsibility model, cloud threats (CEH theory)
+
+---
+
+## 📱 MODULE 13: Mobile Platform & IoT Hacking
+
+1. **Android Hacking** 💰
+2. **IoT Security** 🆓
+
+---
+
+## 🧪 MODULE 14: Cryptography
+
+1. **Cryptography Basics** 🆓 🎯
+2. **Public Key Cryptography** 🆓
+3. **Hashing & Encoding** 🆓
+
+📌 *Covers:* AES, RSA, MD5, SHA, digital signatures (CEH exam heavy)
+
+---
+### 🔹 OpenSSL 🎯
+
+**THM Rooms**
+
+* Cryptography Basics 🆓 🎯
+
+**CEH Use**
+
+* Hashing
+* Encryption
+* Certificates
+
+
+# 🏁 FINAL CEH PRACTICE STRATEGY
+
+### 🆓 If you are on FREE plan
+
+You can complete **~75% of CEH practically** using:
+
+* Network Services
+* Vulnversity
+* Blue
+* Linux/Windows PrivEsc
+* OWASP
+* Wireshark
+* Crack the Hash
