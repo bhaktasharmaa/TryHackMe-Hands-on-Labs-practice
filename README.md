@@ -485,10 +485,6 @@ MUST FOR CEH:-
 
 # 🏁 FINAL CEH PRACTICE STRATEGY
 
-### 🆓 If you are on FREE plan
-
-You can complete **~75% of CEH practically** using:
-
 * Network Services
 * Vulnversity
 * Blue
